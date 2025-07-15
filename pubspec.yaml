@@ -1,0 +1,20 @@
+
+name: citaj_filter
+description: Vijesti iz Istočnog Sarajeva, Republike Srpske i Bosne i Hercegovine.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
